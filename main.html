@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="./main.js"></script>
+    <div id="modal">
+          <div id="modalcontent">
+            <span id="close" onclick="modalclose()">X</span>
+            <p>일정등록</p>
+            <input type="text" name="" value="" id="modalinput">
+            <button type="button" name="button" onclick="Register()" id="registerbutton">새로등록</button>
+        </div>
+      </div>
+      <div id="updatemodal">
+        <div id="updatemodalcontent">
+          <span id="close" onclick="updateClose()">X</span>
+          <p>일정수정</p>
+          <select id="valueselect"></select>
+          <input type="text" name="" value="" id="updateinput">
+          <button type="button" name="button" onclick="updatedone()">수정</button>
+        </div>
+      </div>
+      <div id="todolist">
+        <button type="button" name="button" onclick="contentopen()" id="Registerbtn">등록</button>
+        <button type="button" name="button" onclick="removeall()" id="updatebutton">일정전체삭제</button>
+      </div>
+      <div id="content">
+      </div>
+  </body>
+</html>
