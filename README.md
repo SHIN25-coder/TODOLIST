@@ -1,3 +1,3 @@
 # TODOLIST
 
-<img src="TODOLIST/등록화면.png", width="1000">
+<img src="https://github.com/SHIN25-coder/TODOLIST/blob/b899a2d9224f2fe3eb39009902c166577250649c/%EB%93%B1%EB%A1%9D%ED%99%94%EB%A9%B4.PNG">
